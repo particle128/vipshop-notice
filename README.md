@@ -7,13 +7,13 @@
 
 ###所需库
 * beautifulsoup
-```sh
+```bash
 pip install beautifulsoup
 ```
 
 ###使用
 1. 配置config.py，添加自己的邮箱信息和手机号码，还有需要提醒的商品信息。
 2. 执行如下命令，添加该爬虫到crontab
-```sh
+```bash
 echo "30 09 * * * python /path/to/the/project/main.py >>/path/to/the/log/vipshop.log 2>&1" >>crontab -e
 ```
