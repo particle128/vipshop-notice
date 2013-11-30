@@ -19,7 +19,7 @@ PhoneNum='[phonenumber]'
 PhoneType='[联通|移动|电信]'
 
 #爬虫访问的页面
-URL='http://shop.vipshop.com/brand_date.php'
+URL='http://www.vip.com/brand_date.php'
 
 #关注的品牌列表，自行增减，记得在字符串前面加u
 WANT_LIST=[u'李维斯',u'Lee',u'阿迪达斯',u'耐克',u'卡帕']
